@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_space"
+        android:layout_marginTop="@dimen/extra_small_medium_space"
+        android:layout_marginEnd="@dimen/medium_space"
+        android:layout_marginBottom="@dimen/medium_big_medium_space"
+        android:background="@drawable/rounded_corner"
+        android:elevation="@dimen/extra_medium_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="@dimen/zero_space"
+            android:layout_height="@dimen/medium_small_high_space"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/less_grey"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="@dimen/zero_space"
+            android:layout_height="@dimen/medium_small_high_space"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="@dimen/zero_space"
+            android:layout_height="@dimen/medium_small_high_space"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/less_grey"
+            app:layout_constraintBottom_toBottomOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="@dimen/zero_space"
+            android:layout_height="@dimen/medium_small_high_space"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="@dimen/zero_space"
+            android:layout_height="@dimen/medium_small_high_space"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/less_grey"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="@dimen/zero_space"
+            android:layout_height="@dimen/medium_small_high_space"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_medium_space"
+            android:fontFamily="@font/aileron"
+            android:text="@string/contractor_name"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_medium_space"
+            android:fontFamily="@font/aileron"
+            android:text="@string/type"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_medium_space"
+            android:fontFamily="@font/aileron"
+            android:text="@string/start_date"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_medium_space"
+            android:fontFamily="@font/aileron"
+            android:text="@string/amount"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_medium_space"
+            android:fontFamily="@font/aileron"
+            android:text="@string/status"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_medium_space"
+            android:fontFamily="@font/aileron"
+            android:text="@string/actions"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/contractor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aileron"
+            android:text="@string/text_example"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/text_normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aileron"
+            android:text="@string/text_example"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/text_normal"
+            app:layout_constraintStart_toStartOf="@+id/contractor_name"
+            app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aileron"
+            android:text="@string/text_example"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/text_normal"
+            app:layout_constraintStart_toStartOf="@+id/type"
+            app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aileron"
+            android:text="@string/text_example"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/text_normal"
+            app:layout_constraintStart_toStartOf="@+id/start_date"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="@dimen/status_space"
+            android:layout_height="@dimen/extra_medium_space"
+            android:background="@drawable/rounded_corner_plus"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/aileron"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/medium_space"
+            android:paddingEnd="@dimen/zero_space"
+            android:text="@string/text_example"
+            android:textColor="@color/text_green"
+            android:textSize="@dimen/text_small"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/amount"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_example"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/text_normal"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/status"
+            app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="@dimen/small_small_small_space"
+            android:layout_height="@dimen/small_small_small_space"
+            android:contentDescription="@string/example_description"
+            app:layout_constraintBottom_toBottomOf="@+id/status"
+            app:layout_constraintEnd_toEndOf="@+id/status"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="@+id/status"
+            app:layout_constraintTop_toTopOf="@+id/status"
+            app:layout_constraintVertical_bias="0.53"
+            app:srcCompat="@drawable/point" />
+
+        <ImageView
+            android:id="@+id/three_poits_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/small_medium_space"
+            android:contentDescription="@string/example_description"
+            app:layout_constraintBottom_toBottomOf="@+id/view9"
+            app:layout_constraintStart_toStartOf="@+id/status"
+            app:layout_constraintTop_toBottomOf="@+id/view8"
+            app:srcCompat="@drawable/three_points" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/tool_include"
+        layout="@layout/menu_contractor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/medium_space"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+</androidx.constraintlayout.widget.ConstraintLayout>

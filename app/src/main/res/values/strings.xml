@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Ontop</string>
+    <string name="text_example">Example</string>
+    <string name="sign">Sign</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="view_summary">View summary</string>
+    <string name="contractor_name">Contractor name</string>
+    <string name="type">Type</string>
+    <string name="start_date">Start Date</string>
+    <string name="amount">Amount</string>
+    <string name="status">Status</string>
+    <string name="actions">Actions</string>
+    <string name="contract_type">Contract type</string>
+    <string name="filter">Filter</string>
+    <string name="new_hire">New hire</string>
+    <string name="contracts_for_client">Contracts for {{Client}}</string>
+    <string name="clear_filters">Clear filters</string>
+    <string name="create_on">Create on : Jan/10/21</string>
+    <string name="example_description">Example description</string>
+</resources>

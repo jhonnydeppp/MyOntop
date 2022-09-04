@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/appbar_scape"
+    android:background="@color/white"
+    android:elevation="@dimen/extra_medium_space">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="@dimen/ontop_logo_width"
+        android:layout_height="@dimen/extra__medium_medium_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_ontop"
+        android:contentDescription="@string/example_description"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="@dimen/medium_medium_high_space"
+        android:layout_height="@dimen/medium_medium_high_space"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/burger_button"
+        android:contentDescription="@string/example_description"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
